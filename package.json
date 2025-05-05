@@ -1,0 +1,23 @@
+{
+  "name": "airalo-web",
+  "version": "1.0.0",
+  "description": "end to end test for airalo assignment",
+  "main": "airalo-script.js",
+  "scripts": {
+    "test": "node airalo-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdauwen/Airalo-Web.git"
+  },
+  "author": "wdauwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdauwen/Airalo-Web/issues"
+  },
+  
+  "dependencies": {
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
+  }
+}
